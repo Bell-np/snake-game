@@ -12,7 +12,7 @@ class PoleGame {
      this.bestResult = bestResult;
     }
 
-    createNumber(value) {
+    createNumber() {
         this.result = document.createElement('div');
         document.body.appendChild(this.result);
         this.result.classList.add('result');
